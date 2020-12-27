@@ -7,7 +7,7 @@ Pytorch implementation for the paper: [Learning VAE-LDA Models with Rounded Repa
 python RRT.py
 ```
 
-Tunable paramters:
+Tunable parameters:
 
 ```
 -t  # default=50 #number of topics
