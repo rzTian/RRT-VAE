@@ -16,5 +16,5 @@ Tunable parameters:
 -l  # default=0.001 # learning rate
 -a  # default=1.0 # Dirichlet prior parameter
 -d  #default=1e10 # Delta parameter for RRT
--lam # default=0.01 # Lambda paramter for RRT
+-lam # default=0.01 # Lambda parameter for RRT
 ```
