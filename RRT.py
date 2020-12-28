@@ -203,8 +203,8 @@ if __name__=='__main__':
     
     optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), args.lr)
     
-    train_loss = train()
-    print('Training completed! Saving model.')
+    train()
+    print('Training completed!')
     
     print_perp()
     emb = model.decoder.weight.data.cpu().numpy().T
